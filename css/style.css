@@ -648,14 +648,14 @@ a {
   flex: 2;
   display: flex;
   justify-content: flex-start;
-  margin-left: -150px;
+  margin-left: -10px;
 }
 
 .modelo-destaque {
   position: relative;
   flex: none;
-  width: 880px;
-  height: 600px;
+  width: 800px;
+  height: 520px;
   border-radius: 15px;
   overflow: hidden;
   background-color: #d296f3;
@@ -678,11 +678,11 @@ a {
 .modelos-direita {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 11rem;
+  gap: 9rem;
   width: 1200px; /* AUMENTADO: largura total da galeria */
   margin-top: 0;
-  margin-left: 4.2rem; /* aumenta o espaço em relação ao destaque */
-  margin-right: -70px;
+  margin-left: 2rem; /* aumenta o espaço em relação ao destaque */
+  margin-right: 60px;
 }
 
 .coluna-modelos {
@@ -695,8 +695,8 @@ a {
 /* Modelo item com largura maior */
 .modelo-item {
   position: relative;
-  width: 150%;
-  height: 282px; /* mesma altura do destaque */
+  width: 160%;
+  height: 240px; /* mesma altura do destaque */
   border-radius: 15px;
   overflow: hidden;
   background-color: inherit; /* cor definida inline no HTML */
